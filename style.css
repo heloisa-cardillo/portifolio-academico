@@ -1056,3 +1056,101 @@ footer span {
 #formacao, #experiencias, #tcc {
     padding: 20px 0;
 }
+
+/* LIGHTBOX */
+.video-thumbs {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.video-thumb {
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1.5px solid var(--border);
+    flex: 1;
+    min-width: 200px;
+    transition: all 0.2s ease;
+}
+
+.video-thumb:hover {
+    border-color: var(--mid);
+    box-shadow: 0 4px 16px rgba(42, 73, 235, 0.15);
+    transform: translateY(-2px);
+}
+
+.video-thumb img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+.video-thumb-label {
+    background: var(--navy);
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.video-thumb-label::before {
+    content: '▶';
+    color: var(--light);
+    font-size: 10px;
+}
+
+/* LIGHTBOX OVERLAY */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox:target {
+    display: flex;
+}
+
+.lightbox-inner {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+}
+
+.lightbox-inner video {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.lightbox-close:hover {
+    opacity: 1;
+}
+
+.lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}

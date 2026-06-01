@@ -99,10 +99,23 @@
 
                             <div style="grid-column: 1 / -1;">
                                 <p class="project-field-label">Demonstração Visual</p>
-                                <div
-                                    style="background: var(--bg); border: 2px dashed var(--border); border-radius: 10px; padding: 40px; text-align: center; color: var(--muted); font-size: 14px;">
-                                    📸 Adicione screenshots ou GIFs do projeto<br>
-                                    <small>Substitua por <code>&lt;img src="image/gsw-screenshot.png"&gt;</code></small>
+                                <div class="video-thumbs">
+
+                                    <a href="#lightbox-po" class="video-thumb">
+                                        <img src="image/imagemPo.png" alt="Case Study – Product Owner">
+                                        <div class="video-thumb-label">Product Owner – Sprints 2 e 3</div>
+                                    </a>
+
+                                    <a href="#lightbox-dev" class="video-thumb">
+                                        <img src="image/imagemSprintUm.png" alt="Dev – Sprint 1">
+                                        <div class="video-thumb-label">Desenvolvedora – Sprint 1</div>
+                                    </a>
+
+                                    <a href="#lightbox-sistema" class="video-thumb">
+                                        <img src="image/sistemaFoto.png" alt="Sistema completo">
+                                        <div class="video-thumb-label">Sistema completo</div>
+                                    </a>
+
                                 </div>
                             </div>
 
@@ -220,6 +233,42 @@
             </div>
         </section>
 
+    </div>
+
+    <!-- LIGHTBOX PO -->
+    <div id="lightbox-po" class="lightbox">
+        <a href="#" class="lightbox-backdrop"></a>
+        <div class="lightbox-inner">
+            <a href="#" class="lightbox-close">✕</a>
+            <video controls>
+                <source src="image/po.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX DEV -->
+    <div id="lightbox-dev" class="lightbox">
+        <a href="#" class="lightbox-backdrop"></a>
+        <div class="lightbox-inner">
+            <a href="#" class="lightbox-close">✕</a>
+            <video controls>
+                <source src="image/dev.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX SISTEMA -->
+    <div id="lightbox-sistema" class="lightbox">
+        <a href="#" class="lightbox-backdrop"></a>
+        <div class="lightbox-inner">
+            <a href="#" class="lightbox-close">✕</a>
+            <video controls>
+                <source src="image/sistemaVideo.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </div>
     </div>
 
     <footer>
