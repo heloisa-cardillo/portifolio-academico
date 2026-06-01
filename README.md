@@ -1,9 +1,59 @@
-**Portfólio**
+# Portfólio Acadêmico – Heloisa Cardillo Lima
 
-Sou **Heloisa Cardillo**, graduanda em Desenvolvimento de Software Multiplataforma pela FATEC São José dos Campos, com formação anterior em Ciências Sociais pela UNESP.
-  
-Meu portfólio apresenta projetos práticos nas áreas de desenvolvimento web, mobile e análise de dados, além de destacar minha atuação em projetos sociais e liderança de equipes.  
+Portfólio acadêmico desenvolvido para a disciplina de Design Digital da FATEC São José dos Campos, curso de Desenvolvimento de Software Multiplataformas.
 
-Com domínio de tecnologias como **Kotlin, Python, JavaScript, HTML, CSS** , busco sempre unir habilidades técnicas e visão social em soluções inovadoras.  
+🔗 **[Acessar portfólio](https://heloisa-cardillo.github.io/portifolio-academico/)**
 
-Conheça meus projetos, competências e experiências: [Acesse meu portfólio 🚀](https://heloisa-cardillo.github.io/heloisacardillo.site/?classId=3ab2a8e3-5827-4df5-b454-8b465b0ae6c1&assignmentId=5752ca39-2aa3-46da-b83f-4dc702487b28&submissionId=3fc49d44-3d84-4a19-e64a-cda371aa5d5a)
+---
+
+## Sobre
+
+Este portfólio reúne minha trajetória acadêmica, projetos desenvolvidos, experiências profissionais e competências técnicas adquiridas ao longo da graduação em Desenvolvimento de Software Multiplataformas na FATEC SJC.
+
+---
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## Estrutura
+
+```
+portifolio-academico/
+├── index.html          # Introdução e apresentação
+├── curriculo.html      # Formação acadêmica e experiências
+├── projetos.html       # Projetos desenvolvidos
+├── habilidades.html    # Hard skills, soft skills e idiomas
+├── cursos.html         # Certificados e cursos
+├── extracurricular.html # Eventos e atividades extracurriculares
+├── contato.html        # Informações de contato
+├── style.css           # Estilos globais
+├── nav.js              # Navegação dinâmica
+├── script.js           # Scripts gerais
+├── image/              # Imagens e ícones
+├── pdfs/               # Certificados e documentos
+└── app/                # Vídeos demonstrativos
+```
+
+---
+
+## Como rodar localmente
+
+1. Clone o repositório:
+```powershell
+git clone https://github.com/heloisa-cardillo/portifolio-academico.git
+```
+
+2. Abra a pasta no VS Code e use a extensão **Live Server** para visualizar.
+
+---
+
+## Contato
+
+- LinkedIn: [heloisa-cardillo-lima](https://linkedin.com/in/heloisa-cardillo-lima)
+- GitHub: [heloisa-cardillo](https://github.com/heloisa-cardillo)
+- E-mail: heloisacardillo@gmail.com
