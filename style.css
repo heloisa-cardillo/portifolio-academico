@@ -1072,7 +1072,9 @@ footer span {
     border: 1.5px solid var(--border);
     flex: 1;
     min-width: 200px;
+    max-width: 280px;
     transition: all 0.2s ease;
+    text-decoration: none;
 }
 
 .video-thumb:hover {
